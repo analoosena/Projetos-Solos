@@ -1,0 +1,135 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=Inter&family=Poppins&family=Righteous&family=Roboto&family=Sarala&family=Sofia+Sans&display=swap');
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+body{
+    
+
+    border-radius: 5px;
+    background: #F9F8F6;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1{
+    
+    color: #464237;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-left: 60px;
+    z-index: 100;
+}
+
+header{
+    border-top: 3px solid #ffbb12;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 352px;
+    padding-top: 10px;
+
+}
+.square{
+    position:relative;
+    top:-10px;
+    left: -332px;
+}
+
+
+.twins{
+    display: flex;
+    flex-direction: row; 
+      
+}
+.twina2{
+    padding-left:40px;
+}
+
+.box{
+    border-radius: 3px;
+background: #FFF;
+border: none;
+box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+padding:15px;
+
+
+}
+input{
+    width: 100%;
+height: 40px;
+border-radius: 3px;
+border: 1px solid #D4D1CA;
+background: #F9F8F6;
+letter-spacing: 1px;
+outline: 0;
+}
+input:active, input:focus{
+    border: 2px solid #FFBB12;
+    border-radius: 4px;
+    
+}
+
+.inputSmall{
+    width: 100%;
+height: 40px;
+border-radius: 3px;
+border: 1px solid #D4D1CA;
+background: #F9F8F6;
+}
+.inputCheck{
+    width: 20px;
+height: 20px;
+flex-shrink: 0;
+border-radius: 3px;
+border: 1px solid #D4D1CA;
+background: #F9F8F6;
+}
+
+form{
+    width: 360px;
+    height: 610px;
+}
+fieldset{
+    color:#000;
+    font-weight: 600;
+    border: none;
+ 
+}
+.checkbox{
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+button:hover{
+    background-color:#764702 ;
+    color: #FFBB12;
+}
+
+button{
+border-radius: 3px;
+background: #FFBB12;
+width: 180px;
+height: 50px;
+color: #764702;
+border-color: none;
+border-style: none;
+
+font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-weight: 600;
+}
